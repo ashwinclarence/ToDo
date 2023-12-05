@@ -1,0 +1,26 @@
+.base{
+    margin-top: 4rem;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(113, 113, 113);
+    padding: 2rem;
+}
+.base h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.base p{
+    padding-top: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.contact i{
+   padding: 2rem;
+    font-size: 2rem;
+    transition: .3s ease-in-out;
+}
+.contact i:hover{
+    scale: 1.2;
+}
