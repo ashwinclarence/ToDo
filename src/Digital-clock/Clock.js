@@ -45,6 +45,5 @@ function Clock() {
     }
     showTime();
 }
-}
 
 export default Clock
