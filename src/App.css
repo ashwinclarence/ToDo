@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --main-color:#4043c1;
+  --bg-color:#decfe7;
+  --input-color:#ffffff;
+  --text-color:#000000;
+  --dark:#000;
+}
+
+body {
+  background-color:var(--bg-color);
+  background-image: url('../public/images/Complete.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+}
+
+.uploadbox{
+  /* background: red;
+  background-color: red; */
+  text-align: center;
+  height: 95vh;
+}
+.uploadbox p{
+  position: relative;
+  top: 20%;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+}
+.uploadbox input{
+  position: relative;
+  top: 30%;
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+::placeholder{
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.uploadbox button{
+  position: relative;
+  top: 40%;
+  width: 100px;
+  border-radius: 20px;
+  background: #7b00ff;
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+.uploadbox button:hover{
+  background: #3e0081;
+  color: #fff;
+}
+/* table for added todo */
+.todolist{
+  margin-top: 5rem;
+}
+.todolist h1{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.table1 table, tr, td{
+  /* border: 2px solid rgb(0, 0, 0); */
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 2rem;
+  max-width: 600px;
+  overflow: hidden;
+}
+.table2 table, tr, td{
+  /* border: 2px solid rgb(0, 0, 0); */
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 2rem;
+  max-width: 300px;
+  overflow: hidden;
+}
+.table3 table, tr, td{
+  /* border: 2px solid rgb(0, 0, 0); */
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 2rem;
+  max-width: 300px;
+  overflow: hidden;
+}
+.slnum{
+  max-width: 20px;
+
+}
+
+tr{
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.btn{
+  color: #fff;
+  background: #008000;
+  font-weight: 600;
+}
+.btn:hover{
+  background-color: #014401;
+}
+.del{
+  color: #fff;
+  background: #ff0000;
+}
+.del:hover{
+  background-color: #710404;
+}
